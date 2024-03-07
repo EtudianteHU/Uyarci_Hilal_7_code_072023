@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-inline: 3rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,-0,-0,-0.1);
+    color: #ff6060;
+    font-weight: 700;
+    gap: 2rem;
+
+}
+.header a{
+    text-decoration: none;
+    color: #ff6060;
+}.header a:hover {
+   text-decoration: underline;
+}
+.header a.active{
+    t
+}
+.navbar_logo{
+    margin-right:auto;
+}

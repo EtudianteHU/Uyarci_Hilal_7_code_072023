@@ -1,0 +1,9 @@
+const GalleryInformationconst = () => {
+<Section>
+
+
+    
+</Section>
+
+
+}

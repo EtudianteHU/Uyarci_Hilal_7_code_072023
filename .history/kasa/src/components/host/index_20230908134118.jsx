@@ -1,0 +1,29 @@
+import React from 'react'
+import styled from 'styled-components'
+import colors from '../../utils/style/colors'
+
+const WrapperHost = styled.div`
+  display: flex;
+`
+const WrapperName = styled.div`
+  margin-block: 0;
+  
+  place-items: center;
+`
+
+const WrapperBadge = styled.div`
+  flex-grow: 1;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+`
+const Host = () => {
+  return (
+    <WrapperHost>
+      <WrapperName>
+        <WrapperBadge></WrapperBadge>
+      </WrapperName>
+    </WrapperHost>
+  )
+}
+export default Host

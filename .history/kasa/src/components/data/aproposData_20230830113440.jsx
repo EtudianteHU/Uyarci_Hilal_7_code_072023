@@ -1,0 +1,5 @@
+const aproposData = {
+    fiable
+
+
+}

@@ -1,0 +1,23 @@
+
+.banner img{ 
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    
+    padding-inline:0.2rem;
+    min-height: 140px;
+    margin:auto;
+    border-radius: 2rem;
+    display: grid;
+    place-items: center;
+    color:white;
+    margin-bottom: 2rem;
+    max-width: 100%;
+}
+banner.img::before{
+    position: absolute;
+    content:"";
+    opacity: 0.5;
+    border-radius:2rem;
+    
+}

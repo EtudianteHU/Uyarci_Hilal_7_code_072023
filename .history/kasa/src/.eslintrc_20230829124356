@@ -1,0 +1,11 @@
+{
+  "extends": ["react-app"],
+  "rules": { "no-console": "error" }
+}
+module.exports = {
+  // ... autres règles et configurations ...
+  rules: {
+    'no-console': 'off', // Désactive la règle no-console
+    // ... autres règles ...
+  },
+};

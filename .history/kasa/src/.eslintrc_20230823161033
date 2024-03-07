@@ -1,0 +1,1 @@
+path='/logements/:logementId' element={<Logement />} />
